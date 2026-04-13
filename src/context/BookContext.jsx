@@ -9,6 +9,8 @@ const BookProvider = ({ children }) => {
     const [readList, setReadList] = useState(() => getAllReadListFromLocalDB())
     const [wishlist, setWishlist] = useState([])
 
+
+    //using useeffect
     // useEffect(() => {
     //     const getReadListFromLocalDB = getAllReadListFromLocalDB()
     //     console.log(getAllReadListFromLocalDB, "getAllReadListFromLocalDB")
